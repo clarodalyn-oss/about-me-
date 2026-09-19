@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Rodalyn Claro</title>
+
+  <!-- SEO Metadata -->
+  <meta name="description" content="Get in touch with Rodalyn Claro via email or complete the online contact form for inquiries and web development opportunities.">
+  <link rel="canonical" href="https://clarodalyn-oss.github.io/about-me/contact.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact | Rodalyn Claro">
+  <meta property="og:description" content="Get in touch with Rodalyn Claro via email or complete the online contact form for inquiries and web development opportunities.">
+  <meta property="og:image" content="https://clarodalyn-oss.github.io/about-me/assets/hero-md.jpg">
+  <meta property="og:url" content="https://clarodalyn-oss.github.io/about-me/contact.html">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Rodalyn Claro</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Contact Me</h2>
+      <address>
+        Email: <a href="mailto:clarodalyn@gmail.com">clarodalyn@gmail.com</a>
+      </address>
+
+      <form action="#" method="POST">
+        <fieldset>
+          <legend>Contact me</legend>
+          <p>
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" required minlength="2">
+          </p>
+          <p>
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" required>
+          </p>
+          <p>
+            <label for="phone">Phone (optional)</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9\-\s]{7,}">
+          </p>
+          <p>
+            <label for="referrer">How did you hear about me?</label>
+            <select id="referrer" name="referrer">
+              <option value="search">Search Engine</option>
+              <option value="social">Social Media</option>
+              <option value="friend">Friend / Colleague</option>
+              <option value="other">Other</option>
+            </select>
+          </p>
+          <p>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </p>
+          <p>
+            <label for="consent">
+              <input type="checkbox" id="consent" name="consent" required>
+              I agree to be contacted.
+            </label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2026 Rodalyn Claro</p>
+  </footer>
+</body>
+</html>

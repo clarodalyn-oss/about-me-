@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home | Rodalyn Claro</title>
+
+  <!-- SEO Metadata -->
+  <meta name="description" content="Welcome to the personal website of Rodalyn Claro, an Information Systems student exploring web development and design.">
+  <link rel="canonical" href="https://clarodalyn-oss.github.io/about-me/index.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Home | Rodalyn Claro">
+  <meta property="og:description" content="Welcome to the personal website of Rodalyn Claro, an Information Systems student exploring web development and design.">
+  <meta property="og:image" content="https://clarodalyn-oss.github.io/about-me/assets/hero-md.jpg">
+  <meta property="og:url" content="https://clarodalyn-oss.github.io/about-me/index.html">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- JSON-LD Structured Data (Bonus) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Rodalyn Claro",
+    "jobTitle": "Information Systems Student",
+    "url": "https://clarodalyn-oss.github.io/about-me/index.html"
+  }
+  </script>
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Rodalyn Claro</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <h2>Welcome</h2>
+      <p>Hello! Welcome to my personal site. I am an Information Systems student exploring web development and design.</p>
+      
+      <picture>
+        <source type="image/webp"
+                srcset="assets/hero-sm.webp 400w,
+                        assets/hero-md.webp 800w,
+                        assets/hero-lg.webp 1600w"
+                sizes="(max-width: 600px) 90vw, 800px">
+        <img src="assets/hero-md.jpg"
+             alt="Scenic landscape view"
+             width="800" height="450"
+             loading="lazy">
+      </picture>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2026 Rodalyn Claro</p>
+  </footer>
+</body>
+</html>
