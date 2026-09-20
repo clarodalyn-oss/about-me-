@@ -45,29 +45,31 @@ body {
   margin: 0 auto;
 }
 
-/* Typography */
+/* Typography — Exercise 3: Fluid Typography with clamp() */
 h1, h2, h3 { 
   font-family: var(--font-heading); 
   color: var(--clr-navy); 
 }
 
 h1 { 
-  font-size: clamp(2rem, 5vw, 3.5rem); 
+  font-size: clamp(2rem, 4vw + 1rem, 4rem); 
+  line-height: 1.1; 
   margin-bottom: 0; 
 }
 
 h2 { 
-  font-size: 1.75rem; 
+  font-size: clamp(1.5rem, 2.5vw + 0.75rem, 2.5rem); 
   margin: var(--space-lg) 0 var(--space-sm); 
+}
+
+p, address {
+  font-size: clamp(1rem, 0.5vw + 0.85rem, 1.15rem);
+  margin-bottom: var(--space-sm);
+  font-style: normal;
 }
 
 a { 
   color: var(--clr-accent); 
-}
-
-p, address {
-  margin-bottom: var(--space-sm);
-  font-style: normal;
 }
 
 /* Nav Links Base */
